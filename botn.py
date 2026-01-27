@@ -1,4 +1,3 @@
-pip install aiogram openai
 import asyncio
 import logging
 import random
