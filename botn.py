@@ -7,8 +7,6 @@ from openai import AsyncOpenAI
 from collections import deque
 
 # --- КОНФИГУРАЦИЯ ---
-TELEGRAM_TOKEN = "8535045078:AAEJvCN6TKdlgkTFZ0j0HNEUCzYVvQ5ulc8"
-OPENROUTER_API_KEY = "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"
 
 # Настройки модели
 MODEL_NAME = "tngtech/deepseek-r1t2-chimera:free"
