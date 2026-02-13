@@ -10,7 +10,7 @@ from collections import deque
 TELEGRAM_TOKEN = "8535045078:AAEJvCN6TKdlgkTFZ0j0HNEUCzYVvQ5ulc8"
 OPENROUTER_API_KEY = "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"
 # Настройки модели
-MODEL_NAME = "nousresearch/hermes-3-llama-3.1-405b:free"
+MODEL_NAME = "arcee-ai/trinity-large-preview:free"
 
 # НАСТРОЙКИ ПАМЯТИ И ПОВТОРОВ
 MAX_CONTEXT_LEN = 3  # Количество последних сообщений
