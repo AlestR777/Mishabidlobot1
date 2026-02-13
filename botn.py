@@ -75,7 +75,7 @@ async def get_ai_response(chat_id: int, user_name: str, user_text: str) -> str:
             await asyncio.sleep(1)
 
     # Если все попытки провалены
-    return "Я настолько тебя презираю, что у меня даже слов нет. Твоя тупость сломала нейросеть. Попробуй еще раз, кусок идиота."
+    return "да все завали ебало"
 
 @dp.message(Command("start"))
 async def cmd_start(message: types.Message):
