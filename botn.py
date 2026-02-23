@@ -13,7 +13,7 @@ OPENROUTER_API_KEY = "sk-or-v1-cd46465e3655cc28efa61bef80ca7b24a400006253a4aca80
 MODEL_NAME = "arcee-ai/trinity-large-preview:free"
 
 # НАСТРОЙКИ ПАМЯТИ И ПОВТОРОВ
-MAX_CONTEXT_LEN = 3  # Количество последних сообщений
+MAX_CONTEXT_LEN = 25  # Количество последних сообщений
 RANDOM_ANSWER_CHANCE = 0.08
 MAX_RETRIES = 3      # Максимальное количество попыток перегенерации при пустом ответе
 
